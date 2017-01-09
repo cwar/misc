@@ -34,4 +34,4 @@ $Updates = If ($searchresult.Updates.Count  -gt 0) {
   }
 }
 
-Write-Host $Updates
+$Updates >> missing_updates.txt
